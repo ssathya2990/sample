@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.ba.captwo.maven.parents</groupId>
+        <artifactId>master-parent</artifactId>
+        <version>1.2.53</version>
+        <relativePath />
+    </parent>
+    
+    <groupId>com.ba.captwo.ndc.orderretrieve</groupId>
+    <artifactId>orderretrieve-reactor</artifactId>
+    <packaging>pom</packaging>
+    <version>1.48.0-SNAPSHOT</version>
+    <name>com.ba.captwo.ndc.orderretrieve:orderretrieve-reactor</name>
+
+    <properties>
+
+    </properties>
+
+    <scm>
+        <connection>scm:svn:https://cap-subversion.baplc.com/svn/repos/CAPTWO/ba/services/ndc/orderretrieve/trunk</connection>
+        <developerConnection>scm:svn:https://cap-subversion.baplc.com/svn/repos/CAPTWO/ba/services/ndc/orderretrieve/trunk</developerConnection>
+    </scm>
+
+    <modules>
+        <module>orderretrieve-coreservice-api</module>
+        <module>orderretrieve-coreservice</module>
+        <module>orderretrieve-web-api</module>
+        
+        <module>orderretrieve-web-ws</module>
+		<module>orderretrieve-functests</module>
+        
+        <module>orderretrieve-war</module>
+    </modules>
+
+</project>
